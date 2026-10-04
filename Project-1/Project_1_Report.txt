@@ -1,0 +1,95 @@
+DECODELABS - ARTIFICIAL INTELLIGENCE
+PROJECT 1: RULE-BASED AI CHATBOT
+
+1. INTRODUCTION
+This project implements a simple rule-based AI chatbot. The chatbot responds to predefined user inputs using explicit programming rules. The project focuses on control flow, decision-making logic, and basic AI concepts.
+
+2. OBJECTIVE
+The objective is to create a chatbot that:
+- Handles greetings and exit commands.
+- Uses if-else logic to decide responses.
+- Runs continuously until the user chooses to exit.
+
+3. TECHNOLOGY USED
+Programming Language: Python 3
+Main concepts:
+- input()
+- string processing with lower() and strip()
+- if / elif / else
+- while loop
+- break
+
+4. WORKING
+The chatbot starts by displaying a welcome message. It then enters a continuous while loop and waits for user input.
+
+The input is converted to lowercase and extra spaces are removed. The program checks the input against predefined rules:
+- If the input is an exit command, the chatbot says goodbye and stops.
+- If it is a greeting, the chatbot returns a greeting.
+- If it matches another predefined question, the corresponding response is displayed.
+- If no rule matches, the chatbot gives a fallback response.
+
+5. ALGORITHM
+Step 1: Start the program.
+Step 2: Display the chatbot welcome message.
+Step 3: Start a continuous loop.
+Step 4: Read the user's input.
+Step 5: Normalize the input using lowercase conversion and trimming.
+Step 6: Check whether the input is an exit command.
+Step 7: If it is an exit command, display a goodbye message and end the loop.
+Step 8: Otherwise, check the input against the predefined rules.
+Step 9: Display the matching response.
+Step 10: If no rule matches, display the fallback response.
+Step 11: Repeat until the user exits.
+Step 12: End the program.
+
+6. FLOWCHART
+START
+  |
+  v
+Display welcome message
+  |
+  v
+Get user input
+  |
+  v
+Is input an exit command?
+  | Yes
+  v
+Display goodbye -> END
+  |
+  No
+  v
+Check predefined if/elif rules
+  |
+  +--> Match found --> Display response
+  |
+  +--> No match -----> Display fallback response
+  |
+  v
+Repeat loop
+
+7. SAMPLE OUTPUT
+
+====================================
+      Welcome to AI Chatbot
+====================================
+Type 'bye', 'exit', or 'quit' to end the chat.
+
+You: hello
+Bot: Hello! How can I help you?
+
+You: how are you
+Bot: I'm doing great! Thanks for asking.
+
+You: what can you do
+Bot: I can respond to greetings and simple questions.
+
+You: bye
+Bot: Goodbye! Have a great day!
+Chatbot session ended.
+
+8. CONCLUSION
+The project demonstrates how a basic chatbot can simulate simple interaction through explicit rules. It provides practice with continuous loops, conditional statements, and programmatic decision-making. It also establishes a foundation for understanding how more advanced AI systems can be built from programmed logic.
+
+9. FUTURE IMPROVEMENTS
+Possible extensions include expanding the chatbot's vocabulary, adding nested conditions, and giving the chatbot a unique personality.
