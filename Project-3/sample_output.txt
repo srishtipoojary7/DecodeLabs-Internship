@@ -1,0 +1,4 @@
+Sample input: artificial intelligence, machine learning
+
+The program displays the top 5 matching items with their category, similarity score, and description.
+Exact scores may vary slightly by scikit-learn version.
