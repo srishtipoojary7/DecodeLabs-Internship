@@ -1,0 +1,7 @@
+ARTIFICIAL INTELLIGENCE
+
+Project 4 - Image Recognition Demo
+
+Machine learning helps computers understand visual information.
+Image recognition allows computers to identify and analyze objects
+in images.
